@@ -1,0 +1,12 @@
+.grid-container{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: [r-start] 100px [r-end] 30px [rline-3] 50px [r-fin];
+    gap: 10px;
+}
+.grid-container_element{
+    background-color: rgb(159, 247, 247);
+    border: solid brown 1px;
+}
